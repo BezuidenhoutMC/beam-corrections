@@ -7,9 +7,6 @@ import matplotlib
 import matplotlib.pyplot as plt
 import sys, argparse
 
-from astropy.io import fits
-from scipy.interpolate import griddata
-
 from astropy import wcs
 from astropy.coordinates import SkyCoord
 import astropy.units  as u
