@@ -103,7 +103,7 @@ def makebeam(o):
     margin=np.linspace(-o.beamextent/2.,o.beamextent/2.,128)
     x,y=np.meshgrid(margin,margin)
 
-    beampixels=beam.I(x,y,o.freq[0])
+    beampixels=beam.I(x,y,o.freq)
     return beampixels
 
 
